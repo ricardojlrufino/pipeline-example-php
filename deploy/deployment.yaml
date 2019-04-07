@@ -17,7 +17,7 @@ metadata:
   name: php-example
   labels:
     app: php-example
-    clientID: "${CLIENTE}"
+    clientID: ${CICD_CLIENTE}
 spec:
   replicas: 1
   selector:
