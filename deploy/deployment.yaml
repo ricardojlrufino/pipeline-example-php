@@ -14,10 +14,10 @@ spec:
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: php-${CLIENTE}
+  name: php-$CLIENTE
   labels:
     app: php-example
-    clientID: ${CLIENTE}
+    clientID: $CLIENTE
 spec:
   replicas: 1
   selector:
